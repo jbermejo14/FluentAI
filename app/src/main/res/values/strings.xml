@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">FluentAI</string>
     <string name="record_button">Record Button</string>
+    <string name="log_in">Log-In</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="Log_In">Log In</string>
 </resources>
