@@ -35,11 +35,13 @@ public class AudioRecorder extends AppCompatActivity {
     private AudioRecord audioRecord;
 
 
-    Dotenv dotenv = Dotenv.configure().directory(".env").load();
+    Dotenv dotenv = Dotenv.load();
+
     private String accessKey = dotenv.get("AWS_ACCESS_KEY_ID");
     private String secretKey = dotenv.get("AWS_SECRET_ACCESS_KEY");
     private String bucketName = dotenv.get("AWS_STORAGE_BUCKET_NAME");
     private String region = dotenv.get("AWS_S3_REGION_NAME");
+
     AmazonS3Client s3Client;
 
     private TransferUtility transferUtility;
