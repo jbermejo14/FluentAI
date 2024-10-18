@@ -1,4 +1,2 @@
-package com.example.fluentai;
-
-public class Login {
+package com.example.fluentai;public class Login {
 }
