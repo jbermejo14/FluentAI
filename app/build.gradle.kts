@@ -29,7 +29,7 @@ android {
 }
 
 dependencies {
-    implementation("io.github.cdimascio:java-dotenv:5.2.2")
+    implementation("io.github.cdimascio:dotenv-java:2.2.4")
     implementation("com.amazonaws:aws-android-sdk-s3:2.22.0")
     implementation("androidx.appcompat:appcompat:1.7.0")
     implementation("com.google.android.material:material:1.12.0")

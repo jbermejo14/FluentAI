@@ -5,4 +5,6 @@
     <string name="password">password</string>
     <string name="email">email</string>
     <string name="Log_In">Log In</string>
+    <string name="loginButton">loginButton</string>
+    <string name="username">Username</string>
 </resources>
